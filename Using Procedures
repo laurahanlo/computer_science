@@ -1,0 +1,29 @@
+Using Procedures
+
+<procedure> (<input>,<input>, .....)
+				operands
+				arguments
+
+
+def rest_of_string(s):
+	return s[1:]
+
+print rest_of_string('audacity')
+
+# Define a procedure, square, that takes one number 
+# as its input, and returns the square of that 
+# number (result of multiplying
+# the number by itself).
+
+def square(n):
+    return n*n
+print square(5)
+
+Procedure Composition = outputs of first procedure = inputs of second procedure
+E.g
+
+def square(n):
+	return n * n
+x = 37
+print square(square(x))
+

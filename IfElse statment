@@ -1,0 +1,40 @@
+def absolute (x):
+	if x<0;
+	x =-x
+
+	return x
+
+__________________________
+
+def bigger (a,b):
+	if a >b :
+		return b
+	return b
+
+______________________________
+
+def bigger (a,b):
+	if a >b:
+		r = a
+	else:
+		r = b
+	return r
+
+_________________________________
+
+def is_friend(name):
+	if name[0] == 'D'
+		return true
+	else :
+		return false
+
+print is_friend('Diane')
+print is_friend('Fred')
+
+		OR	
+
+def is_friend(name):
+	return name[0] == 'D'
+
+print is_friend('Diane')
+print is_friend('Fred')
